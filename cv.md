@@ -75,4 +75,16 @@ Developed a promotional website for a cake designer. Led a small team, organized
 
 Developed a multi-page website for a beauty studio from scratch, including original design. Led the team, organized development workflow, implemented responsive layout, animations, dynamic content, and optimized performance.
 
+## 🏆 Participation in a 6-hour hackathon focused on social projects with AI integration
+
+Our team developed a functional MVP and received the Special Jury Award for originality and social value.  
+My role included idea development and frontend implementation.
+
+![AI Hackathon Certificate](/images/certificate.jpg "Certificate")
+
 ---
+
+## Education:
+
+- [ITGIRLSCHOOL Frontend Developer Course (completed)](https://itgirlschool.com/new_frontend)
+- [Glo Academy: intensive on React + TypeScript](https://glo.academy)
