@@ -52,14 +52,14 @@ function digitize(n) {
 
 ### Experience
 
-## 💅 [Manicure Master Website](https://github.com/darina1970/Natali_Nails)
+#### 💅 [Manicure Master Website](https://github.com/darina1970/Natali_Nails)
 
 🧩 Role: Team Lead & Frontend Developer  
 🛠 Stack: React, SCSS, Vite, Git
 
 Created a portfolio website for a manicure specialist. Built a SPA with React. Managed team workflow and code review process.
 
-## 🎂 [LuckyCake](https://github.com/darina1970/LuckyCakes)
+#### 🎂 [LuckyCake](https://github.com/darina1970/LuckyCakes)
 
 🧩 Role: Team Lead & Frontend Developer  
 🛠 Stack: HTML, SCSS, JavaScript (Vanilla), Git  
@@ -67,7 +67,7 @@ Created a portfolio website for a manicure specialist. Built a SPA with React. M
 
 Developed a promotional website for a cake designer. Led a small team, organized development stages, implemented responsive layout using pure JavaScript.
 
-## ✨ [Alchemy Beauty](https://github.com/darina1970/Alchemy-Beauty-Salon)
+#### ✨ [Alchemy Beauty](https://github.com/darina1970/Alchemy-Beauty-Salon)
 
 🧩 Role: Team Lead & Frontend Developer  
 🛠 Stack: React, CSS, Vite, Git  
@@ -75,7 +75,7 @@ Developed a promotional website for a cake designer. Led a small team, organized
 
 Developed a multi-page website for a beauty studio from scratch, including original design. Led the team, organized development workflow, implemented responsive layout, animations, dynamic content, and optimized performance.
 
-## 🏆 Participation in a 6-hour hackathon focused on social projects with AI integration
+#### 🏆 Participation in a 6-hour hackathon focused on social projects with AI integration
 
 Our team developed a functional MVP and received the Special Jury Award for originality and social value.  
 My role included idea development and frontend implementation.
@@ -84,7 +84,7 @@ My role included idea development and frontend implementation.
 
 ---
 
-## Education:
+### Education:
 
 - [ITGIRLSCHOOL Frontend Developer Course (completed)](https://itgirlschool.com/new_frontend)
 - [Glo Academy: intensive on React + TypeScript](https://glo.academy)
@@ -92,7 +92,7 @@ My role included idea development and frontend implementation.
 
 ---
 
-## Languages:
+### Languages:
 
 - **Russian** - native
 - **English** - B2
