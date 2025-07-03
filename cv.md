@@ -88,3 +88,12 @@ My role included idea development and frontend implementation.
 
 - [ITGIRLSCHOOL Frontend Developer Course (completed)](https://itgirlschool.com/new_frontend)
 - [Glo Academy: intensive on React + TypeScript](https://glo.academy)
+- [RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)](https://rs.school/courses)
+
+---
+
+## Languages:
+
+- **Russian** - native
+- **English** - B2
+- **Japanese** - B1
