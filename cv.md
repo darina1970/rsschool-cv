@@ -71,7 +71,7 @@ Developed a promotional website for a cake designer. Led a small team, organized
 
 🧩 Role: Team Lead & Frontend Developer  
 🛠 Stack: React, CSS, Vite, Git  
-🔗 [Live Website](https://alchemybeauty.ru/) | [GitHub Repo](https://github.com/yourname/alchemy-beauty)
+🔗 [Live Website](https://alchemybeauty.ru/)
 
 Developed a multi-page website for a beauty studio from scratch, including original design. Led the team, organized development workflow, implemented responsive layout, animations, dynamic content, and optimized performance.
 
