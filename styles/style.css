@@ -24,3 +24,90 @@ h6,
 p {
     margin: 0;
 }
+
+body {
+    margin: 0;
+    color: #320E2C;
+    font-size: 32px;
+    position: relative;
+    z-index: 0;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1600px;
+    background: url('/assets/images/bg.jpg') no-repeat top center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+section {
+    padding: 150px 0;
+}
+
+.nav {
+    padding: 30px 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.intro__wrapper {
+    display: flex;
+    gap: 60px;
+}
+
+.intro-text__wrapper {
+    padding: 110px 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro-contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.about-text__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(640px, 1fr));
+    gap: 60px;
+}
+
+.about-text__item {
+    display: flex;
+    gap: 20px;
+}
