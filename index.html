@@ -11,6 +11,14 @@
 <body>
   <header class="header">
     <div class="header__wrapper container">
+      <div class="mobile-header">
+        <div class="mobile-contacts__wrapper" id="mobileContacts"></div>
+        <button class="burger-btn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <div class="nav">
         <ul class="nav-list">
           <li class="nav-item">
@@ -43,27 +51,27 @@
           <ul class="intro-contacts">
             <li>
               <a class="intro-link" href="">
-                <img src="./assets/icons/phone-icon.svg" alt="" class="intro-link__icon">
+                <img src="./assets/icons/phone-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
             <li>
               <a class="intro-link" href="">
-                <img src="./assets/icons/email-icon.svg" alt="" class="intro-link__icon">
+                <img src="./assets/icons/email-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
             <li>
               <a class="intro-link" href="">
-                <img src="./assets/icons/github-icon.svg" alt="" class="intro-link__icon">
+                <img src="./assets/icons/github-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
             <li>
               <a class="intro-link" href="">
-                <img src="./assets/icons/telegram-icon.svg" alt="" class="intro-link__icon">
+                <img src="./assets/icons/telegram-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
             <li>
               <a class="intro-link" href="">
-                <img src="./assets/icons/discord-icon.svg" alt="" class="intro-link__icon">
+                <img src="./assets/icons/discord-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
           </ul>
@@ -72,30 +80,30 @@
     </div>
   </header>
   <main class="main">
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__wrapper container">
         <h3 class="about-title">About Me</h3>
         <div class="about-text__wrapper">
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme1-icon.svg" alt="" class="about-text__icon" width="80" height="80">
+            <img src="./assets/icons/aboutme1-icon.svg" alt="" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph">I’ve been programming for a year and have already taken part in 4 commercial and several educational projects.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme2-icon.svg" alt="" class="about-text__icon" width="80" height="80">
+            <img src="./assets/icons/aboutme2-icon.svg" alt="" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph">I acted as a team leader on every project, organizing workflows and coordinating team efforts.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme3-icon.svg" alt="" class="about-text__icon" width="80" height="80">
+            <img src="./assets/icons/aboutme3-icon.svg" alt="" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph"> I love learning new things and constantly seek to improve my skills.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme4-icon.svg" alt="" class="about-text__icon" width="80" height="80">
+            <img src="./assets/icons/aboutme4-icon.svg" alt="" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph"> I enjoy building products from scratch to fully launched solutions.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <canvas class="matrix-background"></canvas>
       <div class="skills-wrapper container">
         <h3 class="skills-title">Skills</h3>
@@ -115,10 +123,13 @@
         </div>
       </div>
     </section>
+    <section class="projects" id="projects">
+      
+    </section>
   </main>
 
 
 
-  <script src="js/index.js"></script>
+  <script type="module" src="js/index.js"></script>
 </body>
 </html>
