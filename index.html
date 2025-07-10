@@ -103,8 +103,7 @@
         </div>
       </div>
     </section>
-    <section class="skills section-animated" id="skills">
-      <canvas class="matrix-background"></canvas>
+    <section class="skills section-animated section-common" id="skills">
       <div class="skills-wrapper container">
         <h3 class="skills-title">Skills</h3>
         <div class="skills-items__wrapper">
@@ -123,7 +122,7 @@
         </div>
       </div>
     </section>
-    <section class="projects section-animated" id="projects">
+    <section class="projects section-common section-animated" id="projects">
       <div class="projects-wrapper container">
         <h3 class="projects-title">Projects</h3>
         <div class="projects__list">
@@ -184,7 +183,7 @@
       </div>
 
     </section>
-    <section class="education section-animated" id="education">
+    <section class="education section-common section-animated" id="education">
       <div class="education-wrapper container">
         <h3 class="education-title">Education</h3>
         <div class="education-card__list">
@@ -210,26 +209,65 @@
             <p class="education-status">In progress</p>
           </div>
         </div>
-        
+    </section>
+    <section class="code section-common section-animated" id="code">
+      <canvas id="matrix-canvas"></canvas>
+      <div class="code-wrapper container">
+        <h3 class="code-title">Code Example</h4>
+        <div class="code-description">
+          <p>KATA from CODEWARS: Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+          </p>
+        </div>
+        <pre class="code-content">
+          <code>
+            <span class="keyword">function</span> <span class="function-name">digitize</span>(<span class="param">n</span>) {
+              <span class="keyword">return</span> <span class="class">String</span> (<span class="param">n</span>)
+                .<span class="method">split</span>('')
+                .<span class="method">map</span>(<span class="class">Number</span>)
+                .<span class="method">reverse</span>();
+            }
+          </code>
+        </pre>
+      </div>
+    </section>
+    <section class="languages section-common" id="languages">
+      <div class="languages-wrapper container">
+        <h3>Languages</h3>
+        <ul class="language-list">
+          <li class="language-item">
+            <span class="language-name">Russian</span>
+            <span class="language-level">Native</span>
+          </li>
+          <li class="language-item">
+            <span class="language-name">English</span>
+            <span class="language-level">Upper-intermediate</span>
+          </li>
+          <li class="language-item">
+            <span class="language-name">Japanese</span>
+            <span class="language-level">Upper-intermediate</span>
+          </li>
+        </ul>
+      </div>
 
     </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-copyright">
-          <img class="copyright-icon" src="./assets/icons/copyright-icon.svg" alt="">
-          <p><time datetime="2025">2025</time> BY DARYA SEMINA</p>
-        </div>
-        <div class="footer-links">
-          <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
-            <img src="./assets/icons/github2-icon.svg" alt="">
-          </a>
-          <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
-            <img src="./assets/icons/rsschool-icon.svg" alt="">
-          </a>
-        </div>
-      </div>
-    </footer>
+
   </main>
+  <footer class="footer">
+    <div class="footer-wrapper container">
+      <div class="footer-copyright">
+        <img class="copyright-icon" src="./assets/icons/copyright-icon.svg" alt="">
+        <p class="copyright-text"><time datetime="2025">2025</time> BY DARYA SEMINA</p>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+          <img src="./assets/icons/github2-icon.svg" alt="Author github logo" width="40" height="40">
+        </a>
+        <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+          <img src="./assets/icons/rsschool-icon.svg" alt="RS School logo" width="107" height="40">
+        </a>
+      </div>
+    </div>
+  </footer>
 
 
 
