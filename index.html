@@ -49,29 +49,24 @@
           <h1 class="intro-title">Darya Semina</h1>
           <h2 class="intro-subtitle">Frontend Developer</h2>
           <ul class="intro-contacts">
-            <li>
-              <a class="intro-link" href="">
-                <img src="./assets/icons/phone-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="mailto:daryasemina02@gmail.com" target="_blank" rel="noopener">
+                <img src="./assets/icons/email-icon.svg" alt="Email" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
-            <li>
-              <a class="intro-link" href="">
-                <img src="./assets/icons/email-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+                <img src="./assets/icons/github-icon.svg" alt="GitHub" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
-            <li>
-              <a class="intro-link" href="">
-                <img src="./assets/icons/github-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://t.me/dashatenshi" target="_blank" rel="noopener">
+                <img src="./assets/icons/telegram-icon.svg" alt="Telegram" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
-            <li>
-              <a class="intro-link" href="">
-                <img src="./assets/icons/telegram-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
-              </a>
-            </li>
-            <li>
-              <a class="intro-link" href="">
-                <img src="./assets/icons/discord-icon.svg" alt="" class="intro-link__icon" width="60" height="60">
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://discord.com/users/1387839480190337094" target="_blank" rel="noopener">
+                <img src="./assets/icons/discord-icon.svg" alt="Discord" class="intro-link__icon" width="60" height="60">
               </a>
             </li>
           </ul>
@@ -85,19 +80,19 @@
         <h3 class="about-title">About Me</h3>
         <div class="about-text__wrapper">
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme1-icon.svg" alt="" class="about-text__icon" width="60" height="60">
+            <img src="./assets/icons/aboutme1-icon.svg" alt="Computer icon" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph">I’ve been programming for a year and have already taken part in 4 commercial and several educational projects.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme2-icon.svg" alt="" class="about-text__icon" width="60" height="60">
+            <img src="./assets/icons/aboutme2-icon.svg" alt="Education icon" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph">I acted as a team leader on every project, organizing workflows and coordinating team efforts.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme3-icon.svg" alt="" class="about-text__icon" width="60" height="60">
+            <img src="./assets/icons/aboutme3-icon.svg" alt="Community icon" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph"> I love learning new things and constantly seek to improve my skills.</p>
           </div>
           <div class="about-text__item">
-            <img src="./assets/icons/aboutme4-icon.svg" alt="" class="about-text__icon" width="60" height="60">
+            <img src="./assets/icons/aboutme4-icon.svg" alt="Rocket icon" class="about-text__icon" width="60" height="60">
             <p class="about-text__paragraph"> I enjoy building products from scratch to fully launched solutions.</p>
           </div>
         </div>
@@ -106,75 +101,76 @@
     <section class="skills section-animated section-common" id="skills">
       <div class="skills-wrapper container">
         <h3 class="skills-title">Skills</h3>
-        <div class="skills-items__wrapper">
-          <div class="skills-item">HTML5</div>
-          <div class="skills-item">CSS3</div>
-          <div class="skills-item">SCSS</div>
-          <div class="skills-item">TypeScript</div>
-          <div class="skills-item">Bootstrap</div>
-          <div class="skills-item">JS(ES6+)</div>
-          <div class="skills-item">Git/GitHub</div>
-          <div class="skills-item">Redux</div>
-          <div class="skills-item">Webpack</div>
-          <div class="skills-item">React</div>
-          <div class="skills-item">Vite</div>
-          <div class="skills-item">Figma</div>
-        </div>
+        <ul class="skill-items__list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS3</li>
+          <li class="skills-item">SCSS</li>
+          <li class="skills-item">TypeScript</li>
+          <li class="skills-item">Bootstrap</li>
+          <li class="skills-item">JS(ES6+)</li>
+          <li class="skills-item">Git/GitHub</li>
+          <li class="skills-item">Redux</li>
+          <li class="skills-item">Webpack</li>
+          <li class="skills-item">React</li>
+          <li class="skills-item">Vite</li>
+          <li class="skills-item">Figma</li>
+        </ul>
       </div>
     </section>
     <section class="projects section-common section-animated" id="projects">
       <div class="projects-wrapper container">
         <h3 class="projects-title">Projects</h3>
         <div class="projects__list">
-          <article class="project-card">
+          <article class="project-card" data-link="https://www.luckycake.ru/">
             <div class="project-card__image-wrapper">
-              <img  class="project-card__image" src="./assets/images/project1.jpg" alt="" width="750" height="343">
+              <img  class="project-card__image" src="./assets/images/project1.jpg" alt="Banner of the LuckyCake website" width="750" height="343">
             </div>
             <div class="project-card__info">
               <h4 class="project-card__title">Luckycake Website</h4>
               <div class="project-card__stack-icons">
-                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="" width="60" height="60">
-                <img class="stack-icon" src="./assets/icons/sass-icon.svg" alt="" width="60" height="60">
-                <img class="stack-icon" src="./assets/icons/js-icon.svg" alt="" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="HTML logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/sass-icon.svg" alt="SASS logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/js-icon.svg" alt="JavaScript logo" width="60" height="60">
               </div>
             </div>
             <div class="project-card__underline"></div>
           </article>
-          <article class="project-card">
+          <article class="project-card" data-link="https://darina1970.github.io/Natali_Nails/">
             <div class="project-card__image-wrapper">
-              <img  class="project-card__image" src="./assets/images/project2.jpg" alt="" width="750" height="343">
+              <img  class="project-card__image" src="./assets/images/project2.jpg" alt="Banner of the NataliNails website" width="750" height="343">
             </div>
             <div class="project-card__info">
               <h4 class="project-card__title">NataliNails Website</h4>
               <div class="project-card__stack-icons">
-                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="" width="60" height="60">
-                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="Vite logo" width="60" height="60">
               </div>
             </div>
             <div class="project-card__underline"></div>
           </article>
-          <article class="project-card">
+          <article class="project-card" data-link="https://darina1970.github.io/Crossfit/">
             <div class="project-card__image-wrapper">
-              <img  class="project-card__image" src="./assets/images/project3.jpg" alt="" width="750" height="343">
+              <img  class="project-card__image" src="./assets/images/project3.jpg" alt="Banner of the CrossFit website" width="750" height="343">
             </div>
             <div class="project-card__info">
               <h4 class="project-card__title">CrossFit Website</h4>
               <div class="project-card__stack-icons">
-                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="" width="60" height="60">
-                <img class="stack-icon" src="./assets/icons/css-icon.svg" alt="" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="HTML logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/css-icon.svg" alt="CSS logo" width="60" height="60">
               </div>
             </div>
             <div class="project-card__underline"></div>
           </article>
-          <article class="project-card">
+          <article class="project-card" data-link="https://alchemybeauty.ru/">
             <div class="project-card__image-wrapper">
-              <img  class="project-card__image" src="./assets/images/project4.jpg" alt="" width="750" height="343">
+              <img  class="project-card__image" src="./assets/images/project4.jpg" alt="Banner of the AlchemyBeauty website" width="750" height="343">
             </div>
             <div class="project-card__info">
               <h4 class="project-card__title">AlchemyBeauty Website</h4>
               <div class="project-card__stack-icons">
-                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="" width="60" height="60">
-                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/figma-icon.svg" alt="Figma logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="Vite logo" width="60" height="60">
               </div>
             </div>
             <div class="project-card__underline"></div>
@@ -255,14 +251,14 @@
   <footer class="footer">
     <div class="footer-wrapper container">
       <div class="footer-copyright">
-        <img class="copyright-icon" src="./assets/icons/copyright-icon.svg" alt="">
+        <img class="copyright-icon" src="./assets/icons/copyright-icon.svg" alt="copyright" width="40px" height="40px">
         <p class="copyright-text"><time datetime="2025">2025</time> BY DARYA SEMINA</p>
       </div>
       <div class="footer-links">
         <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
           <img src="./assets/icons/github2-icon.svg" alt="Author github logo" width="40" height="40">
         </a>
-        <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+        <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener">
           <img src="./assets/icons/rsschool-icon.svg" alt="RS School logo" width="107" height="40">
         </a>
       </div>
