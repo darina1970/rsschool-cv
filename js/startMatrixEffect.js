@@ -1,9 +1,19 @@
 export function startMatrixEffect() {
     const canvas = document.getElementById('matrix-canvas');
+    const codeSection = document.querySelector('.code');
+
+    if (!canvas || !codeSection) {
+        return;
+    }
+
     const ctx = canvas.getContext('2d');
 
-    canvas.width = window.innerWidth;
-    canvas.height = document.querySelector('.code').offsetHeight;
+    function setCanvasSize() {
+        canvas.width = window.innerWidth;
+        canvas.height = codeSection.offsetHeight;
+    }
+
+    setCanvasSize();
 
     const letters = '101010101010101010101010101010';
     const fontSize = 16;
@@ -36,7 +46,6 @@ export function startMatrixEffect() {
 
   // Обновление размеров при ресайзе
     window.addEventListener('resize', () => {
-        canvas.width = window.innerWidth;
-        canvas.height = document.querySelector('.code-section').offsetHeight;
+        setCanvasSize();
     });
 }
