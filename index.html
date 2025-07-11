@@ -3,9 +3,279 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+  <title>Darya Semina - Frontend Developer</title>
+  <link rel="stylesheet" href="styles//style.css">
 </head>
 <body>
-  <h1>My CV</h1>
+  <header class="header">
+    <div class="header__wrapper container">
+      <div class="mobile-header">
+        <div class="mobile-contacts__wrapper" id="mobileContacts"></div>
+        <button class="burger-btn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </div>
+      <div class="intro__wrapper">
+        <div class="intro-photo__wrapper">
+          <img  class="intro-photo" src="./assets/images/profile-photo.png" alt="Frontender photo" width="450" height="580">
+        </div>
+        <div class="intro-text__wrapper">
+          <h1 class="intro-title">Darya Semina</h1>
+          <h2 class="intro-subtitle">Frontend Developer</h2>
+          <ul class="intro-contacts">
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="mailto:daryasemina02@gmail.com" target="_blank" rel="noopener">
+                <img src="./assets/icons/email-icon.svg" alt="Email" class="intro-link__icon" width="60" height="60">
+              </a>
+            </li>
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+                <img src="./assets/icons/github-icon.svg" alt="GitHub" class="intro-link__icon" width="60" height="60">
+              </a>
+            </li>
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://t.me/dashatenshi" target="_blank" rel="noopener">
+                <img src="./assets/icons/telegram-icon.svg" alt="Telegram" class="intro-link__icon" width="60" height="60">
+              </a>
+            </li>
+            <li class="intro-contacts__item">
+              <a class="intro-link" href="https://discord.com/users/1387839480190337094" target="_blank" rel="noopener">
+                <img src="./assets/icons/discord-icon.svg" alt="Discord" class="intro-link__icon" width="60" height="60">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about" id="about">
+      <div class="about__wrapper container">
+        <h3 class="about-title">About Me</h3>
+        <div class="about-text__wrapper">
+          <div class="about-text__item">
+            <img src="./assets/icons/aboutme1-icon.svg" alt="Computer icon" class="about-text__icon" width="60" height="60">
+            <p class="about-text__paragraph">I’ve been programming for a year and have already taken part in 4 commercial and several educational projects.</p>
+          </div>
+          <div class="about-text__item">
+            <img src="./assets/icons/aboutme2-icon.svg" alt="Education icon" class="about-text__icon" width="60" height="60">
+            <p class="about-text__paragraph">I acted as a team leader on every project, organizing workflows and coordinating team efforts.</p>
+          </div>
+          <div class="about-text__item">
+            <img src="./assets/icons/aboutme3-icon.svg" alt="Community icon" class="about-text__icon" width="60" height="60">
+            <p class="about-text__paragraph"> I love learning new things and constantly seek to improve my skills.</p>
+          </div>
+          <div class="about-text__item">
+            <img src="./assets/icons/aboutme4-icon.svg" alt="Rocket icon" class="about-text__icon" width="60" height="60">
+            <p class="about-text__paragraph"> I enjoy building products from scratch to fully launched solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills section-animated section-common" id="skills">
+      <div class="skills-wrapper container">
+        <h3 class="skills-title">Skills</h3>
+        <ul class="skill-items__list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS3</li>
+          <li class="skills-item">SCSS</li>
+          <li class="skills-item">TypeScript</li>
+          <li class="skills-item">Bootstrap</li>
+          <li class="skills-item">JS(ES6+)</li>
+          <li class="skills-item">Git/GitHub</li>
+          <li class="skills-item">Redux</li>
+          <li class="skills-item">Webpack</li>
+          <li class="skills-item">React</li>
+          <li class="skills-item">Vite</li>
+          <li class="skills-item">Figma</li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects section-common section-animated" id="projects">
+      <div class="projects-wrapper container">
+        <h3 class="projects-title">Projects</h3>
+        <div class="projects__list">
+          <article class="project-card" data-link="https://www.luckycake.ru/">
+            <div class="project-card__image-wrapper">
+              <img  class="project-card__image" src="./assets/images/project1.jpg" alt="Banner of the LuckyCake website" width="750" height="343">
+            </div>
+            <div class="project-card__info">
+              <h4 class="project-card__title">Luckycake Website</h4>
+              <div class="project-card__stack-icons">
+                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="HTML logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/sass-icon.svg" alt="SASS logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/js-icon.svg" alt="JavaScript logo" width="60" height="60">
+              </div>
+            </div>
+            <div class="project-card__underline"></div>
+          </article>
+          <article class="project-card" data-link="https://darina1970.github.io/Natali_Nails/">
+            <div class="project-card__image-wrapper">
+              <img  class="project-card__image" src="./assets/images/project2.jpg" alt="Banner of the NataliNails website" width="750" height="343">
+            </div>
+            <div class="project-card__info">
+              <h4 class="project-card__title">NataliNails Website</h4>
+              <div class="project-card__stack-icons">
+                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="Vite logo" width="60" height="60">
+              </div>
+            </div>
+            <div class="project-card__underline"></div>
+          </article>
+          <article class="project-card" data-link="https://darina1970.github.io/Crossfit/">
+            <div class="project-card__image-wrapper">
+              <img  class="project-card__image" src="./assets/images/project3.jpg" alt="Banner of the CrossFit website" width="750" height="343">
+            </div>
+            <div class="project-card__info">
+              <h4 class="project-card__title">CrossFit Website</h4>
+              <div class="project-card__stack-icons">
+                <img class="stack-icon" src="./assets/icons/html-icon.svg" alt="HTML logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/css-icon.svg" alt="CSS logo" width="60" height="60">
+              </div>
+            </div>
+            <div class="project-card__underline"></div>
+          </article>
+          <article class="project-card" data-link="https://alchemybeauty.ru/">
+            <div class="project-card__image-wrapper">
+              <img  class="project-card__image" src="./assets/images/project4.jpg" alt="Banner of the AlchemyBeauty website" width="750" height="343">
+            </div>
+            <div class="project-card__info">
+              <h4 class="project-card__title">AlchemyBeauty Website</h4>
+              <div class="project-card__stack-icons">
+                <img class="stack-icon" src="./assets/icons/figma-icon.svg" alt="Figma logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/react-icon.svg" alt="React logo" width="60" height="60">
+                <img class="stack-icon" src="./assets/icons/vite-icon.svg" alt="Vite logo" width="60" height="60">
+              </div>
+            </div>
+            <div class="project-card__underline"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="education section-common section-animated" id="education">
+      <div class="education-wrapper container">
+        <h3 class="education-title">Education</h3>
+        <div class="education-card__list">
+          <div class="education-card">
+            <img class="education-icon" src="./assets/images/course1.jpg" alt="" width="120" height="120">
+            <div class="education-item">
+              <h4>ITGIRLS</h4>
+              <p>Frontend Developer</p>
+              <p>Course</p>
+            </div>
+            <p class="education-status">Completed</p>
+          </div>
+          <div class="education-card">
+            <img class="education-icon" src="./assets/images/course2.jpg" alt="" width="120" height="120">
+            <div class="education-item">
+              <h4>GLO Academy</h4>
+              <p>Intensive on</p>
+              <p>React + Typescript</p>
+            </div>           
+            <p class="education-status">Completed</p>
+          </div>
+          <div class="education-card">
+            <img class="education-icon" src="./assets/images/course3.jpg" alt="" width="120" height="120">
+            <div class="education-item">
+              <h4>RS School</h4>
+              <p>JavaScript/Front-end.</p>
+              <p>Stage 0</p>
+            </div>           
+            <p class="education-status">In progress</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section class="code section-common section-animated" id="code">
+      <canvas id="matrix-canvas"></canvas>
+      <div class="code-wrapper container">
+        <h3 class="code-title">Code Example</h3>
+        <div class="code-description">
+          <p>KATA from CODEWARS: Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+          </p>
+        </div>
+        <pre class="code-content">
+          <code>
+            <span class="keyword">function</span> <span class="function-name">digitize</span>(<span class="param">n</span>) {
+              <span class="keyword">return</span> <span class="class">String</span> (<span class="param">n</span>)
+                .<span class="method">split</span>('')
+                .<span class="method">map</span>(<span class="class">Number</span>)
+                .<span class="method">reverse</span>();
+            }
+          </code>
+        </pre>
+      </div>
+    </section>
+    <section class="languages section-common" id="languages">
+      <div class="languages-wrapper container">
+        <h3>Languages</h3>
+        <ul class="language-list">
+          <li class="language-item">
+            <span class="language-name">Russian</span>
+            <span class="language-level">Native</span>
+          </li>
+          <li class="language-item">
+            <span class="language-name">English</span>
+            <span class="language-level">Upper-intermediate</span>
+          </li>
+          <li class="language-item">
+            <span class="language-name">Japanese</span>
+            <span class="language-level">Upper-intermediate</span>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer-wrapper container">
+      <div class="footer-copyright">
+        <img class="copyright-icon" src="./assets/icons/copyright-icon.svg" alt="copyright" width="40" height="40">
+        <p class="copyright-text"><time datetime="2025">2025</time> BY DARYA SEMINA</p>
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="https://github.com/darina1970" target="_blank" rel="noopener">
+          <img class="footer-link__img" src="./assets/icons/github2-icon.svg" alt="Author github logo" width="40" height="40">
+        </a>
+        <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener">
+          <img class="footer-link__img" src="./assets/icons/rsschool-icon.svg" alt="RS School logo" width="107" height="40">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-to-top" aria-label="Scroll to top">
+    <img class="scroll-to-top__img" src="./assets/icons/arrow-up.svg" alt="scroll to top" width="40" height="40">
+  </button>
+
+
+
+
+  <script type="module" src="js/index.js"></script>
 </body>
 </html>

@@ -80,9 +80,6 @@ Developed a multi-page website for a beauty studio from scratch, including origi
 Our team developed a functional MVP and received the Special Jury Award for originality and social value.  
 My role included idea development and frontend implementation.
 
-![AI Hackathon Certificate](./images/certificate.jpg "Certificate")
-
----
 
 ### Education:
 
