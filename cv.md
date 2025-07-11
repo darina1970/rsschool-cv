@@ -6,7 +6,6 @@
 
 ### Contact Information:
 
-- **Phone:** +7 913 009 82 27
 - **E-mail:** [daryasemina02@gmail.com](daryasemina02@gmail.com)
 - **GitHub:** [darina1970](https://github.com/darina1970)
 - **Telegram:** [@dashatenshi](https://t.me/dashatenshi)
@@ -79,7 +78,6 @@ Developed a multi-page website for a beauty studio from scratch, including origi
 
 Our team developed a functional MVP and received the Special Jury Award for originality and social value.  
 My role included idea development and frontend implementation.
-
 
 ### Education:
 
