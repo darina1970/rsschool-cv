@@ -7,7 +7,7 @@ import { initScrollToTop } from "./scrollToTop.js";
 document.addEventListener('DOMContentLoaded', () => {
     setupBurgerMenu();
     animateOnScroll();
-    startMatrixEffect();
     initProjectCardLinks();
+    startMatrixEffect();
     initScrollToTop();
 })
