@@ -1,4 +1,3 @@
 # rsschool-cv
 
-https://darina1970.github.io/rsschool-cv/cv
 https://darina1970.github.io/rsschool-cv/
